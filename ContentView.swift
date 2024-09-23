@@ -36,12 +36,12 @@ struct ContentView: View {
                 .listStyle(.insetGrouped)
                 .padding(.top)
                 
-                Spacer() 
+                Spacer()
                 Text("Michelle González, A00837313")
                     .font(.footnote)
                     .foregroundColor(.gray)
                     .padding(.bottom)
-                    .navigationTitle("Products")
+                    .navigationTitle("Productos")
                     .toolbar {
                         ToolbarItem(placement: .topBarTrailing) {
                             NavigationLink {
